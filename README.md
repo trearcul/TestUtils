@@ -9,7 +9,6 @@
 - [Installation](#installation)
 - [Features](#features)
   - [StubFactory](#stub-factory)
-  - [AdvancedAssertions](#advanced-assertions)
 
 ## Installation
 
@@ -82,7 +81,3 @@ self::assertSame('Hello world!', $myEntity->salute());
 ```
 
 It comes handy when class constructor has more arguments and most of them are not required for your test. 
-
-### AdvancedAssertions
-
-TBD
